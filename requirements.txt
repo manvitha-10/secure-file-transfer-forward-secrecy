@@ -1,0 +1,19 @@
+# Secure File Transfer with Forward Secrecy
+#
+# This project uses only Python standard library modules.
+# No external dependencies required!
+#
+# Python version: 3.7+
+#
+# Standard library modules used:
+# - tkinter (GUI)
+# - hashlib (SHA-256 hashing)
+# - random (key generation)
+# - os (file operations)
+# - time (timestamps)
+# - threading (async operations)
+
+# For development/testing (optional):
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=4.0.0

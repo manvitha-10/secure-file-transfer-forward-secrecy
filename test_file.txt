@@ -1,0 +1,20 @@
+This is a test file for the Secure File Transfer System!
+
+This file will be encrypted using Diffie-Hellman key exchange and forward secrecy.
+
+Key Features Demonstrated:
+1. DH Key Exchange - New keys for each session
+2. Chunk-based Encryption - File split into 4KB chunks
+3. XOR Cipher - With rotating key derived from shared secret
+4. Checksum Verification - SHA-256 ensures integrity
+5. Forward Secrecy - Each transfer uses completely new keys
+
+If you can read this on the receiver side after decryption,
+the secure file transfer was successful!
+
+Test Data:
+- Random numbers: 42, 1337, 8675309
+- Special chars: !@#$%^&*()_+-=[]{}|;:',.<>?
+- Unicode: 🔒 🔐 🔑 ✅ ❌ 📤 📥
+
+End of test file.
